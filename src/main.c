@@ -8,7 +8,7 @@ char jogador1[50], jogador2[50];
 void menuJogador1(){        printf("Jogar 1 digite seu nome: ");}
 void menuJogador2(){        printf("Jogar 2 digite seu nome: ");}
 void menuContinuar(){       printf("1 - Sim\n2 - Nao\nDeseja jogar novamente?\n");}
-void printComoCoordena(){   printf("\nDigite a coordenada que deseja jogar conforme o exemplo. 1(vertical) 0(horizontal): ");}
+void printComoCoordena(){   printf("\nDigite a coordenada que deseja jogar conforme o exemplo: 1(vertical) 0(horizontal): ");}
 void printCoordenada(){     printf("\nDigite a coordenada que deseja jogar: ");}
 void printVencedor1(){      printf("\nParabens. Voce venceu %s\n", jogador1);}
 void printVencedor2(){      printf("\nParabens. Voce venceu %s\n", jogador2);}
